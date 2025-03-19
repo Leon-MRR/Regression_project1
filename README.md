@@ -7,12 +7,12 @@ The objective of this project is to analyze the depreciation trends of used cars
 1. **Depreciation Trends by Brand**
    - Cheaper brands such as **Renault, Mitsubishi, and Volkswagen** tend to devalue at a slower rate than luxury brands like **Mercedes, BMW, and Audi**.
    - The regression analysis in Tableau for different brands yielded the following equations:
-     - **Renault**: \( \ln(\text{price}) = 0.083 \times \text{Year} - 156.47 \)
-     - **Volkswagen/Mitsubishi**: \( \ln(\text{price}) = 0.096 \times \text{Year} - 183.24 \)
-     - **Toyota**: \( \ln(\text{price}) = 0.0936 \times \text{Year} - 178.29 \)
-     - **Mercedes**: \( \ln(\text{price}) = 0.12 \times \text{Year} - 231.02 \)
-     - **Audi**: \( \ln(\text{price}) = 0.139 \times \text{Year} - 268.8 \)
-     - **BMW**: \( \ln(\text{price}) = 0.13 \times \text{Year} - 252.21 \)
+     - **Renault**: ln(price) = 0.083 x Year - 156.47
+     - **Volkswagen/Mitsubishi**: price = 0.096 x Year - 183.24
+     - **Toyota**: ln(price) = 0.0936 x Year - 178.29
+     - **Mercedes**: ln(price) = 0.12 x Year - 231.02
+     - **Audi**: ln(price) = 0.139 x Year - 268.8
+     - **BMW**: ln(price) = 0.13 x Year - 252.21
    - The regression analysis shows that **higher-priced brands depreciate faster** than cheaper brands.
    - The coefficient in front of "Year" indicates that **premium brands have steeper depreciation curves**, making them riskier investments from a resale perspective.
 
